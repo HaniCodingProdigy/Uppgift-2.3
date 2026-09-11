@@ -11,7 +11,7 @@ namespace övning2_3
             double andra = double.Parse(Console.ReadLine());
             Console.WriteLine("Hur mycket kännar tredje personen i kr");
             double tredje = double.Parse(Console.ReadLine());
-            double medelön = (tredje + andra + första) / 2;
+            double medelön = (tredje + andra + första) / 3;
             Console.WriteLine("Medelönen av alla tre personer är " + medelön + " kr");
         }
     }
